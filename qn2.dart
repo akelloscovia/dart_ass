@@ -12,7 +12,11 @@ class Student {
 
 
   // Constructor with default values to avoid null pointer exceptions
-  Student({this.name = "scovia", this.score1 = 80, this.score2 = 70, this.score3 = 60});
+  Student({
+  this.name = "scovia",
+  this.score1 = 80,
+  this.score2 = 70,
+  this.score3 = 60});
 
   // Method to calculate average
   double calculateAverage() {
